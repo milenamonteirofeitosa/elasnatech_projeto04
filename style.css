@@ -1,0 +1,50 @@
+body {
+  background-color: #e8eaff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.cards_container {
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #494e80;
+  color: #ffffff;
+  box-sizing: border-box;
+  height: 250px;
+  width: fit-content;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.tamanho {
+  display: block;
+  height: 85%;
+}
+
+main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  .cards_container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
